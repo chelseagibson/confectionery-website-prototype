@@ -65,6 +65,9 @@ figcaption {
   background-color: #4da696;
   text-align: center;
   display: inline-block;
+  border-radius: 5px;
+  padding: .6em;
+  margin: auto;
 }
 
 li:hover a:hover {
@@ -93,6 +96,8 @@ p {
 
 .menu {
   background-color: #61aba9;
+  padding: 0;
+  margin: .5em;
 }
 
 .location {
@@ -103,20 +108,13 @@ p {
   background-color: #8fd2c7;
 }
 
-.truffles {
-  padding: .5rem;
-  margin:
-}
-
-.big img-flex {
-  width: 400px;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
+.menu-img {
+  width: 200px;
+  margin: 0;
 }
 
 .img-flex {
-  width: 200px;
+  width: 450px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -133,6 +131,7 @@ p {
   font-size: 1.125em;
   border-style: solid;
   border-color: #3f8c7e;
+  text-align: center;
 }
 
 figcaption {
