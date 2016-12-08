@@ -31,7 +31,7 @@ header h1 {
   font-size: 2.5rem;
   font-weight: bold;
   margin: 0;
-  padding: 0.75em;
+  padding: .4rem 0;
 }
 
 a {
@@ -47,7 +47,13 @@ header li {
 }
 
 .chocolate-day {
-  background-color: #d1d3d4;
+  background-color: #8fd2c7;
+}
+
+figcaption {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
 }
 
 .list-nav {
@@ -55,8 +61,8 @@ header li {
   border-bottom: 1px solid #3f8c7e;
   border-right: 1px solid #3f8c7e;
   float: left;
-  width: 33.3333%;
-  background-color: #d05c2e;
+  width: 100%;
+  background-color: #4da696;
   text-align: center;
   display: inline-block;
 }
@@ -65,10 +71,24 @@ li:hover a:hover {
   background-color: #a63f38;
 }
 
+h2,
+h3 {
+  font-size: 2em;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+}
+
 ul {
   padding: 0;
   margin: 0;
   overflow: hidden;
+}
+p {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
 }
 
 .menu {
@@ -83,8 +103,23 @@ ul {
   background-color: #8fd2c7;
 }
 
+.truffles {
+  padding: .5rem;
+  margin:
+}
+
+.big img-flex {
+  width: 400px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .img-flex {
-  width: 100%;
+  width: 200px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn {
@@ -98,4 +133,8 @@ ul {
   font-size: 1.125em;
   border-style: solid;
   border-color: #3f8c7e;
+}
+
+figcaption {
+  display: block;
 }
