@@ -115,16 +115,22 @@ img {
 
 .menu-img {
   width: 200px;
-  margin-left: 140px;
-  margin-right: 140px;
+  margin-left: 90px;
+  margin-right: 90px;
   overflow: hidden;
+}
+
+.loc-img {
+  width: 400px;
 }
 
 .img-flex {
   width: 450px;
   height: auto;
   margin: .5rem;
-  padding: 2rem 0;
+  padding: 1rem 0;
+  margin-left: -25px;
+  margin-right: -25px;
 }
 
 .div-wrapper {
@@ -192,7 +198,21 @@ footer p {
 }
 
 .img-review {
-  width: 200px;
+  width: 150px;
   height: auto;
   float: right;
+}
+
+figcaption {
+  text-align: left;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.chels {
+  text-align: left;
+}
+
+.menu p {
+  text-align: center;
 }
