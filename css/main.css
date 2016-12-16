@@ -104,33 +104,27 @@ img {
 
 .menu-img {
   width: 200px;
-  margin-left: 90px;
-  margin-right: 90px;
+  margin-left: 95px;
+  margin-right: 95px;
   overflow: hidden;
 }
 
 .loc-img {
-  width: 400px;
+  width: 100%;
   display: block;
 }
 
 .img-flex {
-  width: 450px;
-  height: auto;
-  margin: .5rem;
-  padding: 1rem 0;
-  margin-left: -25px;
-  margin-right: -25px;
+  width: 100%;
   display: block;
 }
 
 .chocolate-content {
   position: absolute;
-  width: 100%;
   padding-left: 3rem;
   padding-right: 3rem;
   max-width: 50em;
-  bottom: -30em;
+  bottom: -35em;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -234,6 +228,11 @@ footer p {
     line-height: 1.3;
   }
 
+  h1,
+  p {
+    margin: 0 0 1.3rem;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -243,15 +242,21 @@ footer p {
     line-height: 1.4;
   }
 
+  h1,
+  p {
+    margin: 0 0 1.4rem;
+  }
+
+  .chocolate-content {
+    bottom: -40em;
+  }
+
   .loc-img {
-    width: 400px;
-    margin-left: 110px;
-    margin-right: 110px;
+    width: 100%;
   }
 
   .img-flex {
-    margin-left: 90px;
-    margin-right: 90px;
+    width: 100%;
   }
 
   .menu-img {
@@ -269,19 +274,16 @@ footer p {
   }
 
   .loc-img {
-    width: 400px;
-    margin-left: 315px;
-    margin-right: 315px;
+    width: 100%;
   }
 
   .img-flex {
-    margin-left: 290px;
-    margin-right: 290px;
+    width: 100%;
   }
 
   .menu-img {
-    margin-left: 410px;
-    margin-right: 410px;
+    margin-left: 437px;
+    margin-right: 437px;
   }
 
   .img-review {
@@ -295,12 +297,29 @@ footer p {
     position: static;
   }
 
+  .chocolate-content {
+    bottom: -60em;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+  .img-flex {
+    width: 100%
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
+  }
+
+  .chocolate-content {
+    bottom: -150em;
   }
 
 }
