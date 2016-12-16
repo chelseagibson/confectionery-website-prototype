@@ -124,7 +124,7 @@ img {
   padding-left: 3rem;
   padding-right: 3rem;
   max-width: 50em;
-  bottom: -35em;
+  bottom: -23em;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -309,10 +309,6 @@ footer p {
 
   html {
     font-size: 130%;
-  }
-
-  .menu-img {
-    width: 250px;
   }
 
 }
