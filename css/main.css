@@ -66,11 +66,6 @@ li:hover a:hover {
   background-color: #8fd2c7;
 }
 
-li:hover {
-  background-color: #8fd2c7;
-  color: #ccc;
-}
-
 h2 {
   font-size: 2em;
   color: #fff;
@@ -194,10 +189,6 @@ footer p {
   padding: .5rem;
 }
 
-.current {
-  background-color: #8fd2c7;
-}
-
 .img-review {
   width: 150px;
   height: auto;
@@ -283,8 +274,9 @@ footer p {
   }
 
   .menu-img {
-    margin-left: 437px;
-    margin-right: 437px;
+    margin-left: 580px;
+    margin-right: 580px;
+    width: 250px;
   }
 
   .img-review {
@@ -299,7 +291,7 @@ footer p {
   }
 
   .chocolate-content {
-    bottom: -60em;
+    bottom: -75em;
   }
 
   h1,
@@ -319,13 +311,8 @@ footer p {
     font-size: 130%;
   }
 
-  .chocolate-content {
-    bottom: -200em;
-  }
-
   .menu-img {
-    margin-left: 700px;
-    margin-right: 700px;
+    width: 250px;
   }
 
 }
