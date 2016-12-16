@@ -66,6 +66,11 @@ li:hover a:hover {
   background-color: #8fd2c7;
 }
 
+li:hover {
+  background-color: #8fd2c7;
+  color: #ccc;
+}
+
 h2 {
   font-size: 2em;
   color: #fff;
@@ -277,10 +282,6 @@ footer p {
     width: 100%;
   }
 
-  .img-flex {
-    width: 100%;
-  }
-
   .menu-img {
     margin-left: 437px;
     margin-right: 437px;
@@ -307,7 +308,7 @@ footer p {
   }
 
   .img-flex {
-    width: 100%
+    width: 100%;
   }
 
 }
@@ -319,7 +320,12 @@ footer p {
   }
 
   .chocolate-content {
-    bottom: -150em;
+    bottom: -200em;
+  }
+
+  .menu-img {
+    margin-left: 700px;
+    margin-right: 700px;
   }
 
 }
